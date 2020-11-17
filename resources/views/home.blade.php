@@ -31,7 +31,7 @@
                     </div>  
                     <div class="w-30 text-right pr-4">
                         <ul class="list text-sm pt-2">
-                            <li>Call Us Now +250 784 112 426</li>
+                            <li class=""><a class="btn border-orange" href="tel:+250784112426">Call Us On +250 784 112 426</a></li>
                         </ul>
                     </div>
                 </div>
@@ -42,10 +42,10 @@
                         <div class="mt-24">
                             <h1 class="text-xs font-bold mt-4 text-orange">STAY TUNED</h1>
                             <p class="font-bold text-4xl -mt-5">We Are Coming Soon ...</p>
-                            <p class="-mt-6 text-sm"><span class="font-bold text-orange">Bookingsunny.com</span> Find the Best Prices & Join More Than 6.7 Million Others Who Travelled With Us! Compare Travel Options With 480+ Providers. Book Your Dream Destination & Save Money!</p>
+                            <p class="-mt-6 text-sm"><span class="font-bold text-orange">Bookingsunny.com</span> Find the Best Prices & Join Others Who Travelled With Us! Compare Travel Options With 480+ Providers. Book Your Dream Destination & Save Money!</p>
                             
                             @if(session()->has('success'))
-                                <div class="bg-green-light text-sm my-2 text-white w-95 px-3 py-3">
+                                <div class="bg-green-light text-sm my-2 text-white www.bookingsunny.comw-95 px-3 py-3">
                                     {{ session()->get('success') }}
                                 </div>
                             @endif
