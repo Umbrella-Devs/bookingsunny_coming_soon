@@ -45,7 +45,7 @@
                             <p class="-mt-6 text-sm"><span class="font-bold text-orange">Bookingsunny.com</span> Find the Best Prices & Join Others Who Travelled With Us! Compare Travel Options With 480+ Providers. Book Your Dream Destination & Save Money!</p>
                             
                             @if(session()->has('success'))
-                                <div class="bg-green-light text-sm my-2 text-white www.bookingsunny.comw-95 px-3 py-3">
+                                <div class="bg-green-light text-sm my-2 text-white w-95 px-3 py-3">
                                     {{ session()->get('success') }}
                                 </div>
                             @endif
@@ -93,7 +93,7 @@
 
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Dec 1, 2020 15:37:25").getTime();
+        var countDownDate = new Date("Dec 20, 2020 12:00:00").getTime();
         
         // Update the count down every 1 second
         var x = setInterval(function() {
