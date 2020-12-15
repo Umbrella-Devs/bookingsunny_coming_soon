@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="{{ asset('css/mobile.css') }}">
         <link rel="stylesheet" href="{{ asset('css/tablet.css') }}">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
         <style>
             body{
                 font-family: 'Poppins', sans-serif;
@@ -20,7 +20,7 @@
                     <div class="w-30">
                         <img class="w-35" src="{{ asset('images/booking_sunny_logo.png') }}">
                     </div>  
-                    <div class="w-40 text-center pt-2">
+                    <div class="w-40 text-center pt-2 xs:hidden">
                         <ul class="list text-sm inline-block">
                             <li class="mx-3">Flights</li>
                             <li class="mx-3">Hotels</li>
@@ -29,7 +29,7 @@
                         </ul>
                         
                     </div>  
-                    <div class="w-30 text-right pr-4">
+                    <div class="w-30 text-right pr-4 xs:hidden">
                         <ul class="list text-sm pt-2">
                             <li class=""><a class="btn border-orange" href="tel:+250784112426">Call Us On +250 784 112 426</a></li>
                         </ul>
@@ -93,7 +93,7 @@
 
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Dec 20, 2020 12:00:00").getTime();
+        var countDownDate = new Date("Dec 24, 2020 12:00:00").getTime();
         
         // Update the count down every 1 second
         var x = setInterval(function() {
